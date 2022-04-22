@@ -1,0 +1,18 @@
+<!-- including header -->
+<%- include('include/_header') %>
+    <main id="site-main">
+        <div class="container">
+            <div class="box-nav d-flex justify-between">
+                <div class="filter">
+                    <a href="/"><i class="fas fa-angle-double-left"></i> All Users</a>
+                </div>
+            </div>
+            <div class="form-title text-center">
+                <h2 class="text-dark">New User</h2>
+                <span class="text-light">Use the below form to create an account.</span>
+            </div>
+            <%- include('include/_form')%>
+        </div>
+    </main>
+    <!-- including footer -->
+    <%- include('include/_footer')%>
